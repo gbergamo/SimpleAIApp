@@ -36,7 +36,7 @@ static void WriteColored(string text, ConsoleColor color, bool newLine = false)
 {
     var originalColor = Console.ForegroundColor;
     Console.ForegroundColor = color;
-    
+
     if (newLine)
         Console.WriteLine(text);
     else

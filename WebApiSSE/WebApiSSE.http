@@ -1,0 +1,11 @@
+@WebApiSSE_HostAddress = http://localhost:5041
+
+GET {{WebApiSSE_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{WebApiSSE_HostAddress}}/todos/1
+Accept: application/json
+
+###
