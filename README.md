@@ -94,8 +94,28 @@ AI: Hi there! How can I help you today?
 * Customize AI system messages to create different personalities
 * Add authentication and rate limiting for production deployments
 
+## File Structure
+
+- `AIClients/OpenAIAppClient.cs` – Main client for OpenAI chat interactions
+- `WebApiSSE/Program.cs` – Web API server setup
+- `WebApiSSE/Chat.html` – Example web interface
+
+## Customization
+
+- Change the default model by passing a different model name to `OpenAIAppClient`.
+- Add a system message at initialization to set the assistant's behavior.
+
 ---
 
 ## 📜 License
 
 MIT License. Feel free to use, modify, and share.
+
+## Credits
+
+- [OpenAI](https://openai.com/)
+- [openai-dotnet](https://github.com/openai/openai-dotnet)
+
+---
+
+For questions or contributions, please open an issue or pull request on [GitHub](https://github.com/gbergamo/VerySimpleAIApp).
